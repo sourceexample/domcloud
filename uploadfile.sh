@@ -1,0 +1,1 @@
+scp ./domcloud test1@sga.domcloud.co:~/public_html/public
