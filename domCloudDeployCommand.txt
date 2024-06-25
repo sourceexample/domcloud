@@ -1,0 +1,5 @@
+nginx:
+  root: public_html/public
+  passenger:
+    enabled: 'on'
+    app_start_command: 'env HTTPPORT=$PORT /home/test1/public_html/public/domcloud'
